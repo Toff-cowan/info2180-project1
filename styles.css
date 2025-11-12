@@ -168,6 +168,8 @@ header nav ul li a:hover {
     height: 200px;
     border-radius: 50%;
     flex-shrink: 0;
+    object-fit: cover;
+    
 }
 
 .stories article .article-body h3 {
@@ -177,6 +179,17 @@ header nav ul li a:hover {
 
 .stories article .article-body a {
     color: #5A67D8;
+}
+.stories article .read-more {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5A67D8;
+    cursor: pointer;
+}
+
+.stories article .read-more a {
+    text-decoration: none;
 }
 
 /* Newsletter Section */
