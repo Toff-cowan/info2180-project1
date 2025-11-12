@@ -1,0 +1,241 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+/* Header Styling */
+header {
+    background-color: white;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #6b7280;
+}
+
+header nav ul li a:hover {
+    color: #5A67D8;
+}
+
+/* Hero Overview Section */
+.overview-hero {
+    background-color: #E2E8F0;
+    padding: 60px 0;
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.overview-hero-image {
+    flex: 1;
+}
+
+.overview-hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.overview-hero-text {
+    flex: 1;
+}
+
+/* Learn About Section */
+.learn-about {
+    padding: 60px 0;
+}
+
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.learn-about .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.learn-about .card {
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.learn-about .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.learn-about .card .card-body {
+    padding: 20px;
+}
+
+.learn-about .card h3 {
+    color: #48BB78;
+    font-size: 21px;
+    margin-top: 0;
+}
+
+/* COVID-19 Testing Section */
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 60px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.testing-desciption {
+    flex: 1;
+}
+
+.testing .cta {
+    flex-shrink: 0;
+}
+
+.testing .btn {
+    background-color: #48BB78;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Recent Stories Section */
+.stories {
+    padding: 60px 0;
+}
+
+.stories h2 {
+    color: #5A67D8;
+    margin-bottom: 40px;
+}
+
+.stories article {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+}
+
+.stories article img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+    
+}
+
+.stories article .article-body h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.stories article .article-body a {
+    color: #5A67D8;
+}
+.stories article .read-more {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5A67D8;
+    cursor: pointer;
+}
+
+.stories article .read-more a {
+    text-decoration: none;
+}
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.newsletter h3 {
+    margin-top: 0;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.newsletter input[type="email"] {
+    padding: 12px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter .btn {
+    background-color: #5A67D8;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
